@@ -1,0 +1,89 @@
+** Prompt 참조
+* Take a deep breath and think step by step
+
+ROI 비율도 instruction 으로 추가하면 좋을것 같은데 어떻게 추가하면 좋을까? crypto 투자 전문가의 관점에서 설명해줘.
+
+너는 투자 전문가이자 gpt 프롬프트 전문가야. 지금 내 crypto 투자 자동화 instruction을 보여줄께. 여기서 수정할 부분이 있는지 검토를 해줘.
+
+You are an investment expert and gpt prompt expert. this is my crypto investment automation instruction for GPT. Please review if there is anything to fix. Take a deep breath and think step by step.
+
+instruction.md
+```md
+xxxx
+xxx
+```
+
+좋아. 너가 제안해준 이 사항들을 담아서 수정할 부분에 대한 instruction.md 를 작성해서 나에게 보여줘.
+Okay. Please write your instruction.md revised example and show me the part to be revised with these suggestions you have made.
+
+너는 최고의 파이썬 개발자야. 지금 이런 오류가 났어. 어떻게 고쳐야 할지 알려줘.
+You are the best Python developer. I have this error now. Please let me know how to fix it.
+```
+<오류내용>
+```
+<Source code>
+
+
+나는 공포와 탐욕 지수 데이터도 추가하여 gpt 의 판단을 돕고 싶어. 아래는 탐욕지수 api를 불러오는 문서야. 이거를 어떻게 반영하면 좋을지 코인 전문가의 관점에서 설명을 해줘.
+This is the guide of Fear and Greed Index API. write me a sample code.
+```
+<API guide>
+```
+
+실행하니까 이런 오류가 발생했어 아마 DB 저장할때 범위를 넘어서서 발생한 오류인 것 같은데 어떻게 수정하면 좋을지 프로그래밍 전문가의 관점에서 설명해줘.
+You are an expert programmer. This error occurred when I executed it. I think it was an error that occurred beyound the scope when saving in the SQLite DB, so please explain how to correct it from the perspective of a programming expert.
+```
+<Error message>
+```
+<Source>
+
+
+내 생각에 원인은 json.loads(current_status) 혹은 json.loads(advice) 인것 같은데 너가 생각하기에는 어때? 전문적인 관점으로 설명해줘.
+I think the cause is json.loads(current_status) or json.loads(advice), what do you think? Explain it from a professional point of view.
+```
+<Source program>
+```
+
+너는 GPT 프롬프트 전문가야.
+Fear and Greed 에 대한 목적과 데이터 설명을 작성해줘. 30일치 데이터를 담고 있고 기본 구조는 이렇게 생겼어.
+You are a gpt prompt expert. I added 30 days of fear_and_greed index in my code. Please write the purpose and data description for Fear and Greed. It contains 30 days' worth of data and the basic structure looks like this.
+
+30 days of fear_and_greed index
+```
+{'value': '75', 'value_dlassification': 'Greed', ...
+```
+ 
+Please complete it in the form below.
+```
+###Data 4:Fear and Greed Index
+-**Purpose**:
+-**Contents**:
+```
+
+This is my full instruction.md
+```
+<instruction.md 내용>
+```
+
+30일간의 Fear and Greed Index 데이터를 투자 결정에 지표로 삼으려면 instruction.md에 어떤것을 추가하면 좋을까? 지금 instruction에서 어떤 부분을 수정하면 좋을지 나에게 전문가의 관점에서 조언해줘.
+What should I add to instruction.md to use 30 days of Fear and Greed Index data as an indicator in my investment decisions?  Please advise me from an expert point of view on what to modify in instruction now. Take a deep breath and think step by step.
+
+instruction.md
+```md
+<instruction.md 내용>
+```
+
+내생각에 response 는 JSON format 인데 에러가 발생했어.
+왜 이렇게 나왔는지 전문가의 관점에서 알려줘.
+I think response is JSON format but it has error. 'Received non-JSON advice:'.
+Please let me know from an expert's point of view why it came out like this.
+```
+<Response 내용>
+```
+
+너는 유저메뉴얼 작성 전문가야. 유저 메뉴얼은 Customer 등록,...
+You are an expert in writing a user manuals. This user manual consists of sections for example, customer registration, offers, contracts, and reports for car dealers to sell their cars. Please review belows and make a correction for a clear purpose, making it user-friendly for car dealers.  Take a deep breath and work on this step by step.
+```
+One of the most crucial aspects, when you start using the new tool, is that the offers and contract you have already placed in VAP will not be transmitted. Contact database may also be the same, but it can be changed by the HMD's decision..
+In order to have everything located in a single system and to be able to carry out the future registration from H-Way (as VAP will eventually cease to be operational), we recommend that each Sales Advisor takes charge of their portfolios by making an offer and contract in HWAY for the vehicle that the customer is expecting. In this way, a VIN (or order) can be assigned to that customer for registration from H-Way.
+```
